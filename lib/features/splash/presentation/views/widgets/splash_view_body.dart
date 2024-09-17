@@ -82,7 +82,7 @@ class _SplashViewBodyState extends State<SplashViewBody>
       const Duration(seconds: 3),
       () {
         // ignore: use_build_context_synchronously
-        context.pushReplacementNamed(Routes.onboardingView);
+        context.pushReplacementNamed(Routes.homeView);
       },
     );
   }

@@ -1,5 +1,6 @@
 import 'package:flutter/material.dart';
 import 'package:workout_pal/core/routing/routes.dart';
+import 'package:workout_pal/features/home/presentation/views/home_view.dart';
 import 'package:workout_pal/features/splash/presentation/views/splash_view.dart';
 
 class AppRouter {
@@ -10,6 +11,10 @@ class AppRouter {
       case Routes.splashView:
         return MaterialPageRoute(
           builder: (_) => const SplashView(),
+        );
+      case Routes.homeView:
+        return MaterialPageRoute(
+          builder: (_) => const HomeView(),
         );
       default:
         return MaterialPageRoute(
