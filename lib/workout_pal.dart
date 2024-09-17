@@ -19,7 +19,7 @@ class WorkoutPal extends StatelessWidget {
         onGenerateRoute: appRouter.generateRoute,
         theme: ThemeData(
           primaryColor: ColorsManager.mainBlue,
-          scaffoldBackgroundColor: Colors.white,
+          scaffoldBackgroundColor: ColorsManager.scaffoldBackgroundColor,
         ),
         initialRoute: Routes.splashView,
       ),
