@@ -2,7 +2,7 @@
     <application
         android:label="workout_pal"
         android:name="${applicationName}"
-        android:icon="@mipmap/app_icon">
+        android:icon="@mipmap/app_icon_1">
         <activity
             android:name=".MainActivity"
             android:exported="true"
