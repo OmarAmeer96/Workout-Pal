@@ -32,7 +32,7 @@ class Styles {
   );
 
   static TextStyle splashViewTextLogoFont = TextStyle(
-    fontSize: 30.sp,
+    fontSize: 24.sp,
     color: ColorsManager.primaryColor,
     fontFamily: GoogleFonts.protestGuerrilla(
       fontWeight: FontWeight.w900,

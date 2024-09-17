@@ -22,9 +22,11 @@ class SlidingText extends StatelessWidget {
           child: Opacity(
             opacity: opacityAnimation.value,
             child: Text(
-              "Shop With Ease!",
+              "Stay Fit, Stay Healthy!",
               textAlign: TextAlign.center,
-              style: Styles.onboardingTitleFont,
+              style: Styles.splashViewTextLogoFont.copyWith(
+                fontWeight: FontWeight.w900,
+              ),
             ),
           ),
         );

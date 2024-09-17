@@ -1,16 +1,11 @@
 class AssetsData {
   // Logo
-  static const appLogo1Svg = 'assets/svgs/logo1Svg.svg';
-  static const appLogo1Png = 'assets/images/logo1Png.png';
-  static const appLogo2Svg = 'assets/svgs/logo2Png.svg';
-  static const appLogo2Png = 'assets/images/logo2Png.png';
+  static const appLogo1Svg = 'assets/svgs/logo1svg.svg';
+  static const appLogo1png = 'assets/images/appLogo1png.png';
 
   // Loading Animation
   static const loadingRightPart = 'assets/svgs/loadingRightPart.svg';
   static const loadingLeftPart = 'assets/svgs/loadingLeftPart.svg';
-
-  // Splash
-  static const splashJson = 'assets/json/splashView1Json.json';
 
   // Onboarding
   static const onboarding1 = 'assets/images/onboading1.png';
