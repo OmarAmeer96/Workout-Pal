@@ -10,7 +10,7 @@ void main() async {
   // Initialize Shared Preferences
   await initSharedPrefsAndGetData();
 
-  runApp(
+runApp(
     WorkoutPal(
       appRouter: AppRouter(),
     ),

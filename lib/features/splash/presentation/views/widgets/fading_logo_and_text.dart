@@ -21,7 +21,7 @@ class FadingLogoAndText extends StatelessWidget {
             children: [
               Image.asset(
                 AssetsData.appLogo1png,
-                height: 180.h,
+                height: 150.h,
               ),
             ],
           ),

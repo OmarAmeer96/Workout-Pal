@@ -55,7 +55,7 @@ class _SplashViewBodyState extends State<SplashViewBody>
   void initAnimation() {
     animationController = AnimationController(
       vsync: this,
-      duration: const Duration(milliseconds: 1700),
+      duration: const Duration(milliseconds: 1500),
     );
 
     // Sliding Animation
